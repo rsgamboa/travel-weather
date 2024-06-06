@@ -15,4 +15,3 @@ def test_countries():
     assert sorted(response.json()) == [
         "England", "France", "Germany", "Italy", "Peru", "Portugal", "Spain"
     ]
-
