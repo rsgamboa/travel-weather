@@ -109,6 +109,22 @@
       "December": {"high": 51, "low": 35}
     }
   },
+  "Mexico": {
+    "Mexico City": {
+      "January": {"high": 70, "low": 42},
+      "February": {"high": 72, "low": 44},
+      "March": {"high": 75, "low": 46},
+      "April": {"high": 77, "low": 48},
+      "May": {"high": 77, "low": 50},
+      "June": {"high": 75, "low": 51},
+      "July": {"high": 74, "low": 51},
+      "August": {"high": 74, "low": 51},
+      "September": {"high": 73, "low": 50},
+      "October": {"high": 72, "low": 48},
+      "November": {"high": 71, "low": 46},
+      "December": {"high": 70, "low": 43}
+    }
+  },
   "Spain": {
     "Seville": {
       "January": {"high": 61, "low": 41},
