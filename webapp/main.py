@@ -25,7 +25,6 @@ def root():
     """
     return RedirectResponse(url='/docs', status_code=301)
 
-
 @app.get('/countries')
 def countries():
     return list(data.keys())
