@@ -26,6 +26,7 @@ def root():
     """
     return RedirectResponse(url='/docs', status_code=301)
 
+
 @app.get('/countries')
 def countries():
     return list(data.keys())
@@ -40,4 +41,5 @@ def monthly_average(country: str, city: str, month: str):
 openapi_schema = app.openapi()
 with open(join(wellknown_path, "openapi.json"), "w") as f:
     json.dump(openapi_schema, f)
+
     
